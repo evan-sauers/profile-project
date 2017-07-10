@@ -1,0 +1,123 @@
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, 
+section, summary, video {
+	display: block;
+}
+
+body {
+    margin: 0px;
+    background-image: url("../images/mountain.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display:block; 
+    font-family: Georgia, serif;
+}
+
+h1 {
+    background-color: aliceblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 30px;
+    margin-top: inherit;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    margin: auto;
+    padding: 30px;
+    font-size: 18px;
+}
+
+a {
+    width: 50%; 
+    padding: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a:link {
+    color: aliceblue;
+}
+
+a:hover {
+    color: white;
+}
+
+li:first-child {
+    padding-top: 20px;
+}
+
+img.profile {
+    width: 300px;
+    height: 300px;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+    margin-right: 50px;
+    position: static;
+}
+
+.main {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+.bullet {
+    margin-right: 20px;
+}
+
+.list {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    list-style-type: none;
+    line-height: 200%;
+    width: auto;
+    padding: 10px;
+}
+
+#column {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#details {
+    font-size: 36px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+#questions {
+    font-size: 36px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+#footer {
+    background-color: aliceblue;
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    font-style: oblique;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#email {
+    color: black;
+}
